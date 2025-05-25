@@ -4141,3 +4141,23 @@ input, select, textarea {
 		}
 
 	}
+
+#header .image.fit {
+    max-width: 400px;
+    margin: 0 auto 2em auto;
+}
+#header .image.fit img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#header .content {
+    margin: 0 auto 2em auto;
+    text-align: center;
+}
+
+#header .content .actions {
+    justify-content: center !important;
+}
